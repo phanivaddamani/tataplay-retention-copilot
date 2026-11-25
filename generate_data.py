@@ -1,6 +1,3 @@
-"""generate_data.py -- deterministic synthetic data for the Tata Play Subscriber Retention & Support Copilot capstone.
-Run:  python generate_data.py        (writes ./data/raw/*.csv and ./data/policies/*.txt)
-Uses only the Python standard library. All data is synthetic and fictional."""
 import csv, math, os, random
 from datetime import date, timedelta
 
